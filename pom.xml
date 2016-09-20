@@ -16,6 +16,7 @@
         <fastjson.version>1.2.7</fastjson.version>
         <guava.version>19.0</guava.version>
         <clojure.version>1.8.0</clojure.version>
+        <servlet-api>3.1.0</servlet-api>
     </properties>
 
     <dependencies>
@@ -23,6 +24,13 @@
             <groupId>org.clojure</groupId>
             <artifactId>clojure</artifactId>
             <version>${clojure.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet-api}</version>
+            <scope>provided</scope>
         </dependency>
 
         <!-- junit -->
