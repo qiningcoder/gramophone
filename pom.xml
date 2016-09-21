@@ -122,6 +122,35 @@
             <version>${guava.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.clojure</groupId>
+            <artifactId>java.jdbc</artifactId>
+            <version>0.6.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.39</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/korma/korma -->
+        <dependency>
+            <groupId>korma</groupId>
+            <artifactId>korma</artifactId>
+            <version>0.4.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
+        <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+
+
+
+
     </dependencies>
 
     <build>
