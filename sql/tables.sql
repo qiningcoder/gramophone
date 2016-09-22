@@ -5,5 +5,6 @@ create table gmp_user (
   nick VARCHAR(32) NOT NULL,
   sex VARCHAR(4) NOT NULL ,
   mobile VARCHAR(16) DEFAULT NULL ,
-  email VARCHAR(32) DEFAULT NULL
+  email VARCHAR(32) DEFAULT NULL,
+  UNIQUE KEY account (account)
 )ENGINE=innodb CHARSET=utf8;
